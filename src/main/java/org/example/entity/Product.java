@@ -1,19 +1,16 @@
 package org.example.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.time.Instant;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Getter
-@Setter
+@Data
+@ToString
 
 public class Product {
-    private int  id;
+    private int id;
     private String name;
     private Instant createDateTime;
     private Category category;

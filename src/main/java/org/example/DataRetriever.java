@@ -92,5 +92,6 @@ public class DataRetriever {
 
 //    public List<Product> getProductByCriteria(String productName, String categoryName, Instant creationMin, Instant creationMax) {
 //
+//
 //    }
 }
